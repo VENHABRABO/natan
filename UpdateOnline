@@ -1,5 +1,5 @@
 {
-  "Version": "2.0",
+  "Version": "1.0",
   "ReleaseNotes": "Internet Ilimitada VPN\nconfigs novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/natan/main/UpdateOnline",
   "Sms": "",
@@ -10,18 +10,40 @@
   "UdpPort": "7100;7200;7300;7400;7500;7600;7700",
   "Servers": [
     {
-      "Name": "SERVIDOR BR",
+      "Name": "SERVIDOR BR 01",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "och.atecubanos.tk",
-      "CheckUser": "http://144.22.249.224:5454/checkUser",
+      "ServerIP": "servidorbr1.natan4g.tk",
+      "CheckUser": "http://20.222.179.0:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    }
+    },
+    {
+      "Name": "SERVIDOR BR 02",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidorbr2.natan4g.tk",
+      "CheckUser": "http://20.226.98.214:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR BR 03",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidorbr3.natan4g.tk",
+      "CheckUser": "http://20.124.14.43:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }  
   ],
-"Networks": [
+     "Networks": [
     {
       "Name": "🔵TIM [01]",
       "FLAG": "tim",
